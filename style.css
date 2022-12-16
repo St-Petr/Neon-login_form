@@ -1,0 +1,91 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+	font-family: system-ui;
+	color:rgb(86, 95, 102);
+}
+form{
+	display: flex;
+	flex-direction: column;
+	height: 40%;
+	justify-content: center;
+	background-color: antiquewhite;
+	border-radius: 19px;
+	box-shadow:inset 9px 4px 30px 0px rgba(218, 209, 209, 0.534), 5px 5px 98px 3px rgba(179, 157, 128, 0.486);
+	
+}
+legend{
+	text-align: center;
+}
+fieldset{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 25px;
+	border-radius:9px;
+	margin: 25px;
+}
+#submit{
+	width: 50%;
+	background-color:rgb(225, 194, 235);
+	padding: 5px;
+	letter-spacing: 1px;
+	font-size: 11px;
+	color:  rgb(86, 95, 102);
+	cursor: pointer;
+}
+#submit:hover{
+	transform: scale(1.05);
+	transition: .3s ease-in-out;
+}
+input{
+	caret-color: deeppink;
+	padding: 3px;
+	margin: 5px 0px;
+	border: 1px solid rgb(190, 185, 185);
+	border-radius: 3px;
+	background-color:lightsteelblue;
+}
+i{
+	font-size:25px;
+	margin: 12px;
+	filter: invert;
+	cursor: pointer;
+}
+#google:hover{
+	filter: none;
+	color: rgb(36, 115, 151);
+	transition: .2s ease-in-out;
+}
+#linkedin:hover{
+	filter: none;
+	color: rgb(91, 91, 235);
+	transition: .2s ease-in-out;
+}
+#facebook:hover{
+	color: rgb(30, 30, 224);
+	filter: none;
+	transition: .2s ease-in-out;
+}
+#github:hover{
+	filter: none;
+	color:rgb(168, 153, 153);
+	transition: .2s ease-in-out;
+}
+.sm{
+	width:275px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border:1px solid rgba(250, 235, 215, 0.466) ;
+	box-shadow: 0px 0px 1px 5px rgba(220, 220, 220, 0.096);
+	padding: 5px;
+}
